@@ -17,6 +17,21 @@ const Hero = () => {
         </div>
       </div>
       <ComputersCanvas/>
+      <div className=' absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
+        <a href='#about'>
+          <div className=' w-[35px] h-[64px] border-4 flex justify-center items-start rounded-3xl border-secondary p-2'>
+            <motion.dev 
+            animate={{
+              y:[0,24,0]
+              }} 
+              transition={{
+                duration:2, 
+                repeat:Infinity, 
+                repeatType:'loop'}} 
+              className='w-3 h-3 rounded-full bg-secondary mb-1'/>
+          </div>
+        </a>
+      </div>
     </section>
   )
 }
