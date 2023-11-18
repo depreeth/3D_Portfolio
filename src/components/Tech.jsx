@@ -1,9 +1,14 @@
 import React from 'react'
+import { motion } from 'framer-motion'
+import { SectionWrapper } from '../hoc'
+import { styles } from '../styles'
 
 const Tech = () => {
   return (
-    <div>Tech</div>
+    <div>
+
+    </div>
   )
 }
 
-export default Tech
+export default SectionWrapper(Tech,"tech")
