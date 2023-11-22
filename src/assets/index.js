@@ -25,12 +25,18 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import aaikyam from "./aaikyam.png"
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import portfolio from "./portfolio.png";
+import paymate from "./paymate.png";
+import nextjs from "./tech/nextjs.svg"
+import cplus from "./tech/c++.svg"
+import python from "./tech/python.svg"
 
 export {
+  cplus,
+  python,
+  nextjs,
   logo,
   backend,
   creator,
@@ -59,6 +65,7 @@ export {
   starbucks,
   tesla,
   carrent,
-  jobit,
-  tripguide,
+  portfolio,
+  paymate,
+  aaikyam,
 };
