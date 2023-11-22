@@ -1,8 +1,6 @@
 import React from 'react'
 import {BallCanvas} from "./canvas"
-import { motion } from 'framer-motion'
 import { SectionWrapper } from '../hoc'
-import { styles } from '../styles'
 import { technologies } from '../constants'
 
 const Tech = () => {
